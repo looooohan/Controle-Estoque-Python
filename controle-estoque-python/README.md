@@ -53,21 +53,3 @@ produtos, além de gerar relatórios simples direto do banco de dados.
    ```
    python main.py
    ```
-
-## Estrutura do projeto
-
-```
-controle-estoque-python/
-├── main.py            # Menu e interação com o usuário
-├── database.py         # Conexão com MySQL e operações de CRUD
-├── produto.py           # Classe que representa um produto
-├── requirements.txt
-└── README.md
-```
-
-## Melhorias futuras
-
-- Interface gráfica (Tkinter ou web com Flask)
-- Autenticação de usuários
-- Exportação de relatórios em PDF/Excel
-- Testes automatizados com `pytest`
